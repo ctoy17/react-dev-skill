@@ -1,0 +1,19 @@
+.SkillListItem {
+    margin: 3vmin;
+    padding-left: 1vmin;
+    border: .5vmin solid #001e1d;
+    list-style: none;
+    font-size: 4vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.level{
+    border: 1vmin solid #e16162;
+    border-radius: 3vmin;
+    background-color: #e16162;
+    margin: 2vmin;
+    font-size: 2vmin;
+    box-shadow: 2px 2px #001e1d;
+}
