@@ -1,8 +1,11 @@
 import React from "react";
+import './SkillListItem.css'
 
-function SkillListItem({skill}){
+function SkillListItem({skill, level}){
     return(
-        <li>SkillListItem</li>
+        <li className="SkillListItem">{skill}
+            <div className="level">LEVEL {level}</div>
+        </li>
     )
 }
 
