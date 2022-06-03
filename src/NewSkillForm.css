@@ -1,14 +1,14 @@
 .NewSkillForm{
     border: 1vmin solid #f9bc60;
     background-color: #f9bc60;
-    color: #004643;
+    color: #001e1d;
     display: grid;
     grid-template-columns: auto auto;
     gap: 1rem;
     align-items: center;
     font-size: 1rem;
     text-align: left;
-    border: 0.2rem solid hsl(177, 100%, 14%);
+    border: 0.2rem solid #001e1d;
     border-radius: 0.3rem;
     padding: 1rem;
     margin: 20px auto;
@@ -26,6 +26,8 @@
 .NewSkillForm > select {
   font-size: 1rem;
   padding: 0.2rem;
-  border: 0.2rem solid #004643;
+  border: 0.17rem solid #001e1d;
   outline: none;
+  background-color: #e8e4e6;
+  color:#001e1d;
 }

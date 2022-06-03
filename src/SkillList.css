@@ -1,7 +1,10 @@
 .SkillList{
     background-color: #abd1c6;
     padding: 3px;
-    box-shadow: 6px 12px #001e1d;
+    box-shadow: 6px 10px #001e1d;
+    border: .2rem solid #001e1d;
+    border-radius: .3rem;
 }
+
 
 /* #001e1d #e8e4e6 #f9bc60 #abd1c6 #e16162 #004643 ##fffffe */
