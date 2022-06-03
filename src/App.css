@@ -5,41 +5,15 @@
   align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 .App>h1{
   font-family: 'Shadows Into Light', cursive;
   font-size: 6vmin;
-  color: #001e1d;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #e8e4e6;
+  width: 100%;
+  background-color: #004643;
+  padding: 30px;
+  margin-top: 0;
+  border-bottom: .5vmin solid #001e1d;
+  text-shadow: 4px 2px #001e1d;
+ 
 }
